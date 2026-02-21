@@ -19,6 +19,7 @@ Outcomes:
 ● Better text work with auto alerts and group reports. 
 
 
+
 🔹 Task 1 – Multithreaded Text Processing
 
 ● Processes multiple text files in parallel using Python threading.
@@ -34,6 +35,7 @@ Technologies used:
 ● Python threading module
 
 
+
 🔹 Task 2 – SQLite Database Integration
 
 ● Creates a local SQLite database.
@@ -45,6 +47,7 @@ Technologies used:
 Technologies used:
 
 ● sqlite3 module
+
 
 
 🔹 Task 3 – Hotel Review Sentiment Analysis

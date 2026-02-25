@@ -1,0 +1,25 @@
+Dataset
+Source: TripAdvisor Hotel Reviews (CSV)
+Records processed: 20,500 (repeated to simulate ~1 million records)
+
+
+Test 1 – Without Index
+
+Insert Time: 26.68 seconds
+Query Time: 1.19 seconds
+
+
+Test 2 – With Index
+
+Optimization Applied:
+CREATE INDEX idx_sentiment ON results(overall_sentiment);
+
+Insert Time: 26.03 seconds
+Query Time: 0.55 seconds
+
+
+Performance Comparison
+Query Performance Improvement:
+
+= ((1.19 - 0.55) / 1.19) × 100
+= 53.8% Faster

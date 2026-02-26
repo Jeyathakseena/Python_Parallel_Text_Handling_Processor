@@ -79,3 +79,34 @@ Reviews are classified as:
 
 ---
 
+## 🔹 Task 4 – Performance & Optimization Test
+
+● Processed a large dataset (~1 million records simulated using repeated CSV data).
+
+● Inserted scored records into SQLite database.
+
+● Measured:
+
+* Insert execution time
+* Query execution time
+
+● Applied table optimization using indexing on `overall_sentiment` column.
+
+● Re-ran the same query and recorded new execution time.
+
+● Compared performance before and after optimization.
+
+
+
+### Technologies Used:
+
+● sqlite3
+
+● time module (execution time measurement)
+
+● CSV dataset processing
+
+● SQL indexing
+
+---
+
